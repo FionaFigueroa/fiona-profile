@@ -1,0 +1,19 @@
+#experience-info {
+  min-height: 50vh;
+}
+
+.exp .card img {
+  width: 350px;
+  margin-bottom: 20px;
+  box-shadow: 15px 15px 15px rgb(94, 92, 94); 
+  border-radius: 15px;
+  transition:0.3s ease-in-out;
+}
+
+.exp .card img:hover {
+  transform: scale(1.2); /* Scale the image instead of changing width */
+}
+
+.card span h4 {
+  color: blueviolet;
+}
